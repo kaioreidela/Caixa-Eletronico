@@ -1,12 +1,14 @@
 package contamelhor;
 
 public class gerente {
-        String numerocriado;
-        String agenciacriado;
-
+        double numerocriado;
+        double agenciacriado;
+        double nomedocliente;
+        boolean verificar = false;
 boolean CriarConta(double Nomecliente){
-    numerocriado = "12345";
-    agenciacriado = "1234";
+    nomedocliente = Nomecliente;
+    numerocriado = 12345;
+    agenciacriado = 1234;
     return true;
 }        
 }
